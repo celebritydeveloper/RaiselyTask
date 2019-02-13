@@ -7,6 +7,7 @@ html {
 }
 
 body {
+    color: rgb(78, 77, 77);
     font-family: sans-serif;
     font-size: 20px;
     margin: 0;
@@ -66,7 +67,7 @@ div.content {
 
 .question {
     color: rgb(143, 143, 143);
-    border: 2px solid rgb(97, 56, 216);
+    box-shadow: 2px 2px 10px 2px rgb(225, 225, 225);
     font-size: 16px;
     line-height: 1.5;
     padding: 15px 10px;
@@ -86,12 +87,25 @@ div.content {
 
 .answer {
     background: transparent;
-    border: 1px solid rgb(143, 143, 143);
+    border: 1px solid rgb(97, 56, 216);
     color: rgb(78, 77, 77);
-    box-shadow: 2px 2px 10px 2px rgb(225, 225, 225);
+    
     line-height: 1.5;
     padding: 20px;
     word-spacing: 2px;
+}
+
+.experience {
+    padding: 20px 0;
+}
+
+.experience h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.experience:last-child {
+    border-top: 1px solid rgb(182, 182, 182);
 }
 
 ul {
@@ -102,11 +116,12 @@ ul {
 @media only screen and (min-width: 568px) {
 
 body {
+    color: rgb(78, 77, 77);
     font-size: 16px;
 }
 
 .answer {
-    border: none;
+    border: 2px solid rgb(97, 56, 216);
     padding: 15px;
 
 }
