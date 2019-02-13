@@ -86,10 +86,11 @@ div.content {
 
 .answer {
     background: transparent;
+    border: 1px solid rgb(143, 143, 143);
     color: rgb(78, 77, 77);
     box-shadow: 2px 2px 10px 2px rgb(225, 225, 225);
     line-height: 1.5;
-    padding: 15px;
+    padding: 20px;
     word-spacing: 2px;
 }
 
@@ -102,6 +103,12 @@ ul {
 
 body {
     font-size: 16px;
+}
+
+.answer {
+    border: none;
+    padding: 15px;
+
 }
 
 
